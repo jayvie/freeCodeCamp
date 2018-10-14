@@ -14,8 +14,13 @@ mv source ... directory
 The first argument is the file you want to move, and the second is the location to move it to. It can also be used to rename a file, by inputting 2 file names as parameters, like so: `mv originalFilename.txt newFilename.txt`
 
 Commonly used options:
-- `-f` to force move them and overwrite files without checking with the user.
-- `-i` to prompt confirmation before overwriting files.
+- `-f, --force` to force move them and overwrite files without checking with the user.
+- `-i, --interactive` to prompt confirmation before overwriting files.
+
+Move the file myfile.txt into the parent directory of the current directory.
+```
+mv my_file.txt ../
+```
 
 ### More Information:
 * [Wikipedia](https://en.wikipedia.org/wiki/Mv)
