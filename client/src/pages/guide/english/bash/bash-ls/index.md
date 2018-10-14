@@ -10,7 +10,7 @@ title: Bash ls
 ### Usage
 
 ```bash
-cat [options] [file_names]
+ls [options] [/path/directory/file/]
 ```
 You can list the items in any directory without even entering the directory. Consider you are in a directory with folders- Test1,Test2. You're in the parent directory you can list all files in Test1 as follows-
 `ls Test1`
@@ -32,6 +32,11 @@ CONTRIBUTING.md    gatsby-browser.js  plugins            yarn.lock
 LICENSE.md         gatsby-config.js   src
 README.md          gatsby-node.js     static
 assets             gatsby-ssr.js      translations
+```
+
+List files inside current directory with its attributes and in chronological order
+```bash
+ls -lhtr
 ```
 
 #### More Information:
