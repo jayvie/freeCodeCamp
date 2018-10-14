@@ -34,5 +34,11 @@ Concatenate the content of the two files and display the result in terminal:
 cat file1.txt file2.txt
 ```
 
+Display TAB on files with '^I' character
+```
+cat -T text2.txt
+test2i test3 test4^Itest5
+```
+
 #### More Information:
 * Wikipedia: https://en.wikipedia.org/wiki/Cat_(Unix)
